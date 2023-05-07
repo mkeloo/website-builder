@@ -16,36 +16,51 @@ function App() {
         <nav className="flex flex-1 flex-col gap-y-4 pt-10">
           <a
             href="#"
-            className="rounded-xl bg-gray-100 p-2 text-blue-600 hover:bg-gray-50"
+            className="group relative rounded-xl bg-gray-100 p-2 text-blue-600 hover:bg-gray-50"
           >
             <FiPlusSquare className="h-6 w-6 stroke-current" />
-            <Tooltip>Add Elements (A)</Tooltip>
+            <Tooltip>
+              Add Elements <span className="text-gray-400">(A)</span>
+            </Tooltip>
           </a>
           <a
             href="#"
-            className="rounded-xl p-2 text-gray-400 hover:bg-gray-100"
+            className="group relative rounded-xl p-2 text-gray-400 hover:bg-gray-100"
           >
             <TbLayoutBoard className="h-6 w-6 stroke-current" />
+            <Tooltip>
+              Layout <span className="text-gray-400">(Y)</span>
+            </Tooltip>
           </a>
           <a
             href="#"
-            className="rounded-xl p-2 text-gray-400 hover:bg-gray-100"
+            className="group relative rounded-xl p-2 text-gray-400 hover:bg-gray-100"
           >
             <RiPaletteLine className="h-6 w-6 stroke-current" />
+            <Tooltip>
+              Themes <span className="text-gray-400">(Y)</span>
+            </Tooltip>
           </a>
           <a
             href="#"
-            className="rounded-xl p-2 text-gray-400 hover:bg-gray-100"
+            className="group relative rounded-xl p-2 text-gray-400 hover:bg-gray-100"
           >
             <FiFileText className="h-6 w-6 stroke-current" />
+            <Tooltip>
+              Assets <span className="text-gray-400">(S)</span>
+            </Tooltip>
           </a>
           <a
             href="#"
-            className="rounded-xl p-2 text-gray-400 hover:bg-gray-100"
+            className="group relative rounded-xl p-2 text-gray-400 hover:bg-gray-100"
           >
             <IoImageOutline className="h-6 w-6 stroke-current" />
+            <Tooltip>
+              Images <span className="text-gray-400">(I)</span>
+            </Tooltip>
           </a>
         </nav>
+        <div></div>
       </aside>
     </div>
   );
