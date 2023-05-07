@@ -6,6 +6,11 @@ export default {
       spacing: {
         18: '4.5rem',
       },
+      colors: {
+        blue: {
+          600: '#006ff9',
+        },
+      },
     },
   },
   plugins: [],
