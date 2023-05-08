@@ -8,7 +8,7 @@ import SizeAccordian from './AccordianTypes/SizeAccordian';
 
 const Tools = () => {
   return (
-    <aside className="h-screen w-[300px] flex-col border-l border-gray-200 bg-white">
+    <aside className="h-screen w-[300px] flex-col border-l border-gray-200 bg-white overflow-y-auto">
       <div className="flex h-18 items-center gap-x-4 border-b border-gray-200 px-6">
         <button className="flex items-center justify-center gap-x-2 rounded-xl bg-gray-100 px-4 py-2">
           <FiUsers className="h-5 w-5 stroke-current text-gray-400" />
@@ -18,7 +18,7 @@ const Tools = () => {
           Publish
         </button>
       </div>
-      <div className="flex flex-1 flex-col overflow-y-auto">
+      <div className="flex flex-1 flex-col ">
         <div className="flex items-center justify-between border-b border-gray-200 py-4 px-6">
           <span className="text-sm font-semibold">Selector</span>
           <span className="text-sm text-gray-400">

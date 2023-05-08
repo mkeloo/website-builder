@@ -5,12 +5,12 @@ const SpacingAccordian = () => {
   return (
     <Accordian title="spacing">
       <div className="flex items-center justify-center rounded-xl border-2 border-dashed border-gray-200 py-10 px-12">
-        <span className="absolute top-2 left-2 text-[10px] uppercase text-gray-400">
+        {/* <span className="absolute top-2 left-2 text-[10px] uppercase text-gray-400">
           Margin
         </span>
         <span className="absolute bottom-12 right-14 text-[10px] uppercase text-gray-400">
           Padding
-        </span>
+        </span> */}
         <div className="relative w-full">
           {/*  */}
           <div className="absolute flex items-center justify-center inset-x-0 -translate-y-1/2 top-0 flex-col gap-2">
